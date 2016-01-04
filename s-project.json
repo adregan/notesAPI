@@ -1,0 +1,21 @@
+{
+  "name": "notesAPI",
+  "version": "0.0.1",
+  "profile": "serverless-0",
+  "location": "https://github.com/...",
+  "author": "",
+  "description": "",
+  "domain": "notes.digital",
+  "stages": {
+    "development": [
+      {
+        "region": "us-east-1",
+        "iamRoleArnLambda": "arn:aws:iam::174595123982:role/notesAPI-development-r-IamRoleLambda-CEW8KTOYIAPB",
+        "regionBucket": "serverless.useast1.notes.digital",
+        "restApiId": "ces1ellwm5"
+      }
+    ]
+  },
+  "custom": {},
+  "plugins": []
+}
